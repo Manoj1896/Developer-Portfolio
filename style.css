@@ -1,0 +1,1272 @@
+*
+{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+background-color: black;
+text-align: justify;
+font-family: "Inter", sans-serif;
+scroll-behavior: smooth;
+}
+
+.header
+{
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3% 8%;
+    }
+    li, a
+    {
+        list-style-type: disc;
+        color: #8e8e8e;
+    }
+    a
+    {
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 1.17em;
+    margin: 0 20px 0 20px;
+    }
+    .btn
+    {
+    font-size: 1.2em;
+    font-family: Prata,serif;
+    font-weight: 500;
+    padding: 15px 25px 15px 25px;
+    background-color: rgb(251, 232, 80);
+    border: none ;
+    color: black;
+    }
+    .btn,.btn1:hover
+    {
+    cursor: pointer;
+    }
+    .list
+    {
+    list-style: none;
+    }
+    .list li
+    {
+      display: inline-block;
+    }
+    .list li a:hover
+    {
+      cursor: pointer;
+    }
+    .menubar
+    {
+    display: none;
+    }
+    #para1
+    {
+    margin-top: 5%;
+    margin-left: 8%;
+
+    }
+    .p1
+    {
+    font-family: Prata,serif;
+    font-size: 4rem;
+    color: white;
+    }
+    .p2
+    {
+    line-height: 1.6;
+    font-family: Inter;
+    font-size: 21px;
+    color: #8e8e8e;
+    }
+    #logos
+    {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5% 8% 5%;
+    }
+    #images
+    {
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 6%;
+    margin-top: 5%;
+    margin: 0 8%;
+    }
+    .h1, .h2
+    {
+    font-family: Prata,serif;
+    color: white;
+    font-size: 2.2rem;
+    }
+    
+    .p3, .p4
+    {
+    line-height: 1.6;
+    color: #8e8e8e;
+    font-family: Inter;
+    font-size: 21px;
+   }
+   .p3{
+    margin-top: -2.5rem;
+   }
+   .p4{
+    margin-top: -2.8rem;
+   }
+    #para2
+    {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 6%;
+    margin: 1% 8%;
+    }
+    .heading
+    {
+    background-color: rgb(46, 48, 56);
+    font-family: Prata,serif;
+    font-size: 2.6rem;
+    color: white;
+    }
+ .h1{
+    margin-top: 1rem;
+ }
+ .h2{
+    margin-top: -1.2rem;
+ }
+    .para3, .para4
+    {
+    line-height: 1.6;
+    background-color: rgb(46, 48, 58);
+    font-family: Inter;
+    font-size: 21px;
+    color: #8e8e8e;
+    }
+    .para4
+    {
+    margin-top: 6%
+    }
+    .para3{
+        margin-top: -7.5%;
+    }
+    .section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 8%;
+        margin-right: 8%;
+        grid-column-gap: 4%;
+    }
+    .Spense, .YelpCamp{
+        width: 100%;
+    }
+
+    .section1
+    {
+ display: grid;
+grid-template-columns:repeat(2, 1fr);
+grid-column-gap: 4%;
+background-color: rgb(46, 48, 58);
+width: 100%;
+margin-top: 5%;
+padding: 4% 8% 5%;
+    }
+    .head
+    {
+    line-height: 1.6;
+    font-family: Prata,serif;
+    font-size: 2.5rem;
+    color: white;
+    }
+    .p5
+    {
+    line-height: 1.6;
+    font-family: Inter;
+    font-size: 21px;
+    color: #8e8e8e;
+    }
+    .btn1
+    {
+    margin-top: 1rem;
+    font-size: 1.2em;
+    font-family: Prata;
+    font-weight: 500;
+    padding: 15px 25px 15px 25px;
+    background-color: rgb(251, 232, 80);
+    border: none ;
+    color: black;
+    }
+    #section2
+{
+margin: 5% 8%;
+}
+.name
+{
+position: relative;
+color: white;
+font-family: Prata,serif;
+font-size: 1.17em;
+background-color: rgb(46, 48, 56);
+}
+.footer
+{
+background-color: rgb(46, 48, 56);
+width: 100%;
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 8% 2%;
+}
+.footer a
+{
+background-color: rgb(46, 48, 56);
+margin: 0 8px 0;
+text-decoration: none;
+}
+
+@media only screen and (max-width: 2000px) {
+    .Spense2{
+        display: none;
+    }
+    .YelpCamp2{
+        display: none;
+    }
+.mob{
+
+display: none;
+}
+.tab{
+display: none;
+}
+.mobp1{
+display: none;
+}
+.tabp1{
+display: none;
+}
+.logos1{
+display: none;
+}
+.mobh1{
+display: none;
+}
+.tabh1{
+display: none;
+}
+.mobp3{
+display: none;
+}
+.tabh3{
+display: none;
+}
+.mobp4{
+display: none;
+}
+.tabh4{
+display: none;
+}
+.mobheading{
+display: none;
+}
+.tabheading{
+display: none;
+}
+.mobpara2{
+    display: none;
+}
+.mobpara1{
+    display: none;
+}
+.tabpara1{
+    display: none;
+}
+.tabpara2{
+    display: none;
+}
+.mobhead{
+    display: none;
+}
+.tabhead{
+    display: none;
+}
+.mobp5{
+    display: none;
+}
+.tabp5{
+    display: none;
+}
+}
+@media only screen and (max-width: 1500px) {
+    .p1{
+        font-size: 3.5rem;
+    }
+    .p2{
+        font-size: 18px;
+    }
+    .h1, .h2{
+        font-size: 2.1rem;
+    }
+    .p3, .p4{
+        margin-top: -17%;
+        font-size: 17px;
+    }
+    .heading{
+        font-size: 2.2rem;
+    }
+     .para3, .para4{
+       
+        font-size: 17px;
+    }
+    .head{
+        font-size: 2.1rem;
+    }
+    .p5{
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width: 768px) {
+*{
+    margin-left: -1%;
+    margin-right: -1%;
+}
+.btn{
+    display: none;
+}
+.menubar{
+    display: block;
+}
+nav{
+    display: none;
+}
+.p1{
+        font-size: 3.4rem;
+
+    }
+    .p2{
+        font-size: 18px;
+    }
+    .h1, .h2{
+        font-size: 2.1rem;
+        ma
+    }
+
+    .heading{
+        font-size: 2.2rem;
+    }
+     
+    .head{
+        font-size: 2.1rem;
+    }
+    .p5{
+        font-size: 17px;
+    }
+    #logos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 1.5rem;
+    }
+   .i1{
+    margin-left: 5.5rem;
+   }
+   .i2{
+    margin-left: 4rem;
+   }
+    .i3{
+        margin-left: 3rem;
+    }
+    .i4{
+       margin-left: 2.8rem;
+    }
+    .i5{
+        margin-left: 1rem;
+    }
+    .i6{
+        margin-left: 3.5rem;
+    }
+    .section{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .tabp3, .tabp4{
+        display: block;
+        color: #8e8e8e;
+        font-size: 17.5px;
+        margin-top: 2%;
+    }
+    .p3, .p4{
+        display: none;
+    }
+    .YelpCamp{
+        margin-top: 10%;
+    }
+    .section1{
+        margin-top: 10%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .heading{
+        display: none;
+    }
+    .tabheading{
+        display: block;
+        color: white;
+        font-size: 2.2rem;
+        margin-top: 4%;
+        font-family: "Prata", serif;
+        font-weight: normal;
+    }
+    .para2{
+        display: none;
+    }
+    .para1{
+        display: none;
+    }
+    .tabpara1, .tabpara2{
+        display: block;
+}
+.tabpara1{
+    margin-top: -7%;
+    font-size: 17px;
+}
+.tabpara2{
+    margin-top: 6%;
+    font-size: 17px;
+}
+}
+@media only screen and (max-width: 735px) {
+*{
+    margin-left: -1%;
+    margin-right: -1%;
+}
+.btn{
+    display: none;
+}
+.menubar{
+    display: block;
+}
+nav{
+    display: none;
+}
+.p1{
+        font-size: 3rem;
+        
+    }
+    .p2{
+        font-size: 16px;
+    }
+    .h1, .h2{
+        font-size: 2rem;
+        ma
+    }
+
+    .heading{
+        font-size: 2rem;
+    }
+     
+    .head{
+        font-size: 2rem;
+    }
+    .p5{
+        font-size: 16px;
+    }
+  
+    .tabp3, .tabp4{
+       font-size: 16px;
+        
+    }
+    
+    .tabheading{
+        font-size: 2rem;
+        }
+.tabpara1{
+    
+    font-size: 16px;
+}
+.tabpara2{
+    
+    font-size: 16px;
+}
+}
+@media only screen and (max-width: 735px) {
+.p1{
+        font-size: 2.8rem;
+        
+    }
+    .p2{
+        font-size: 15px;
+    }
+    .h1, .h2{
+        font-size: 1.7rem;
+        ma
+    }
+
+    .heading{
+        font-size: 1.7rem;
+    }
+     
+    .head{
+        font-size: 1.7rem;
+    }
+    .p5{
+        font-size: 15px;
+    }
+  
+    .tabp3, .tabp4{
+       font-size: 15px;
+        
+    }
+    
+    .tabheading{
+        font-size: 1.7rem;
+        }
+.tabpara1{
+    
+    font-size: 15px;
+}
+.tabpara2{
+    
+    font-size: 15px;
+}
+}
+@media only screen and (max-width: 735px) {
+.p1{
+        font-size: 2.7rem;
+        
+    }
+    .p2{
+        font-size: 15px;
+    }
+    .h1, .h2{
+        font-size: 1.7rem;
+        ma
+    }
+
+    .heading{
+        font-size: 1.7rem;
+    }
+     
+    .head{
+        font-size: 1.7rem;
+    }
+    .p5{
+        font-size: 14px;
+    }
+  
+    .tabp3, .tabp4{
+       font-size: 14px;
+        
+    }
+    
+    .tabheading{
+        font-size: 1.7rem;
+        }
+.tabpara1{
+    
+    font-size: 14px;
+}
+.tabpara2{
+    
+    font-size: 14px;
+}
+}
+@media only screen and (max-width: 480px) {
+    *{
+        margin-left: -2%;
+        margin-right: -2%;
+
+    }
+.p1{
+     display: none;
+        
+    }
+    .mob{
+        display: block;
+        color: white;
+        font-family: "Prata", serif;
+        font-size: 39px;
+        margin-top: 17%;
+    }
+    .p2{
+       display: none;
+    }
+    .p3{
+        display: none;
+    }
+    .mobp3{
+        display: block;
+        color: #8e8e8e;
+        font-family: "Inter", serif;
+        font-size: 18.5px;
+    }
+     .p4{
+        display: none;
+    }
+    .mobp4{
+        display: block;
+        color: #8e8e8e;
+         font-family: "Inter", serif;
+        font-size: 18.5px;
+    }
+    .tabp4{
+        display: block;
+    }
+    .mobp1{
+        display: block;
+        color: #8e8e8e;
+        font-family: "Inter", serif;
+        font-size: 18.5px;
+        margin-top: -2%;
+    }
+    #logos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+}
+.i1{
+    margin-left: 4.5rem;
+   }
+   .i2{
+    margin-left: -1.3rem;
+   }
+    .i3{
+        margin-left: 5.5rem;
+    }
+    .i4{
+       margin-left: -1rem;
+    }
+    .i5{
+        margin-left: 2rem;
+    }
+    .i6{
+        margin-left: 1.3rem;
+    }
+    .h1, .h2{
+        font-size: 1.55rem;
+        ma
+    }
+
+    .heading{
+        font-size: 1.55rem;
+    }
+     
+    .head{
+        font-size: 1.55rem;
+    }
+    
+  
+    .tabp3, .tabp4{
+       display: none;
+        
+    }
+    
+    .tabheading{
+        display: none;
+        }
+        .mobheading{
+        display: none;
+        }
+.tabpara1{
+    
+    display: none;
+}
+.tabpara2{
+    
+    display: none;
+}
+.Spense2{
+        display: block;
+        margin-left: -0.8%;
+        margin-right: 1.5%;
+        width: 100%;
+       
+        margin-top: 10%;
+    }
+    .YelpCamp2{
+        display: block;
+        margin-left: -0.8%;
+        margin-right: 1.5%;
+        width: 100%;
+        margin-top: 15%;
+    }
+    .Spense{
+        display: none;
+    }
+    .YelpCamp{
+        display: none;
+    }
+    .tabh1,.tabh2
+    {
+        display: none;
+    }
+    .mobh2{
+        margin-top: 4%;
+    }
+    .mobheading, .mobpara1, .mobpara2{
+        display: block;
+    }
+    .mobheading{
+        background-color: rgb(46, 48, 56);
+        color: white;
+        font-family: "Prata", serif;
+        margin-left: 1%;
+        margin-right: 1%;
+        font-size: 36.5px;
+        margin-top: 18%;
+
+    }
+   
+    .mobpara1{
+        margin-top: -17%;
+        margin-left: 1%;
+        margin-right: 1%;
+        font-size: 18.5px;
+    }
+     .mobpara2{
+       font-size: 18.5px;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .head{
+        display: none;
+    }
+    .mobhead{
+        display: block;
+        color: white;
+        font-size: 36.5px;
+        font-family: "Prata", serif;
+        margin-top: 15%;
+    }
+    .p5{
+        display: none;
+    }
+    .mobp5{
+        display: block;
+        color: #8e8e8e;
+        font-size: 18.5px;
+        font-family: "Inter", serif;
+    }
+ }
+ @media only screen and (max-width: 450px) {
+    *{
+        margin-left: -2%;
+        margin-right: -2%;
+
+    }
+.p1{
+     display: none;
+        
+    }
+    .mob{
+        display: block;
+        color: white;
+        font-family: "Prata", serif;
+        font-size: 37px;
+        margin-top: 17%;
+    }
+    .p2{
+       display: none;
+    }
+    .p3{
+        display: none;
+    }
+    .mobp3{
+        display: block;
+        color: #8e8e8e;
+        font-family: "Inter", serif;
+        font-size: 17px;
+    }
+     .p4{
+        display: none;
+    }
+    .mobp4{
+        display: block;
+        color: #8e8e8e;
+         font-family: "Inter", serif;
+        font-size: 17px;
+    }
+    .tabp4{
+        display: block;
+    }
+    .mobp1{
+        display: block;
+        color: #8e8e8e;
+        font-family: "Inter", serif;
+        font-size: 17px;
+        margin-top: -2%;
+    }
+    #logos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+}
+
+.i1{
+    margin-left: 4.5rem;
+   }
+   .i2{
+    margin-left: -1.3rem;
+   }
+    .i3{
+        margin-left: 5.5rem;
+    }
+    .i4{
+       margin-left: -1rem;
+    }
+    .i5{
+        margin-left: 2rem;
+    }
+    .i6{
+        margin-left: 1.3rem;
+    }
+    .h1, .h2{
+        font-size: 1.4rem;
+        ma
+    }
+
+    .heading{
+        font-size: 1.4rem;
+    }
+     
+    .head{
+        font-size: 1.4rem;
+    }
+    
+  
+    .tabp3, .tabp4{
+       display: none;
+        
+    }
+    
+    .tabheading{
+        display: none;
+        }
+        .mobheading{
+        display: none;
+        }
+.tabpara1{
+    
+    display: none;
+}
+.tabpara2{
+    
+    display: none;
+}
+.Spense2{
+        display: block;
+        margin-left: -0.8%;
+        margin-right: 1.5%;
+        width: 100%;
+       
+        margin-top: 10%;
+    }
+    .YelpCamp2{
+        display: block;
+        margin-left: -0.8%;
+        margin-right: 1.5%;
+        width: 100%;
+        margin-top: 15%;
+    }
+    .Spense{
+        display: none;
+    }
+    .YelpCamp{
+        display: none;
+    }
+    .tabh1,.tabh2
+    {
+        display: none;
+    }
+    .mobh2{
+        margin-top: 4%;
+    }
+    .mobheading, .mobpara1, .mobpara2{
+        display: block;
+    }
+    .mobheading{
+        background-color: rgb(46, 48, 56);
+        color: white;
+        font-family: "Prata", serif;
+        margin-left: 1%;
+        margin-right: 1%;
+        font-size: 33.5px;
+        margin-top: 18%;
+
+    }
+   
+    .mobpara1{
+        margin-top: -17%;
+        margin-left: 1%;
+        margin-right: 1%;
+        font-size: 17px;
+    }
+     .mobpara2{
+       font-size: 17px;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .head{
+        display: none;
+    }
+    .mobhead{
+        display: block;
+        color: white;
+        font-size: 35px;
+        font-family: "Prata", serif;
+        margin-top: 15%;
+    }
+    .p5{
+        display: none;
+    }
+    .mobp5{
+        display: block;
+        color: #8e8e8e;
+        font-size: 17px;
+        font-family: "Inter", serif;
+    }
+ }
+ @media only screen and (max-width: 408px) {
+    *{
+        margin-left: -2%;
+        margin-right: -2%;
+
+    }
+.p1{
+     display: none;
+        
+    }
+    .mob{
+        display: block;
+        color: white;
+        font-family: "Prata", serif;
+        font-size: 34px;
+        margin-top: 17%;
+    }
+    .p2{
+       display: none;
+    }
+    .p3{
+        display: none;
+    }
+    .mobp3{
+        display: block;
+        color: #8e8e8e;
+        font-family: "Inter", serif;
+        font-size: 15px;
+    }
+     .p4{
+        display: none;
+    }
+    .mobp4{
+        display: block;
+        color: #8e8e8e;
+         font-family: "Inter", serif;
+        font-size: 15px;
+    }
+    .tabp4{
+        display: block;
+    }
+    .mobp1{
+        display: block;
+        color: #8e8e8e;
+        font-family: "Inter", serif;
+        font-size: 15px;
+        margin-top: -2%;
+    }
+    #logos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+}
+.i1{
+    margin-left: 4.5rem;
+   }
+   .i2{
+    margin-left: -1.3rem;
+   }
+    .i3{
+        margin-left: 5.5rem;
+    }
+    .i4{
+       margin-left: -1rem;
+    }
+    .i5{
+        margin-left: 2rem;
+    }
+    .i6{
+        margin-left: 1.3rem;
+    }
+    .h1, .h2{
+        font-size: 1.2rem;
+        ma
+    }
+
+    .heading{
+        font-size: 1.2rem;
+    }
+     
+    .head{
+        font-size: 1.2rem;
+    }
+    
+  
+    .tabp3, .tabp4{
+       display: none;
+        
+    }
+    
+    .tabheading{
+        display: none;
+        }
+        .mobheading{
+        display: none;
+        }
+.tabpara1{
+    
+    display: none;
+}
+.tabpara2{
+    
+    display: none;
+}
+.Spense2{
+        display: block;
+        margin-left: -0.8%;
+        margin-right: 1.5%;
+        width: 100%;
+       
+        margin-top: 10%;
+    }
+    .YelpCamp2{
+        display: block;
+        margin-left: -0.8%;
+        margin-right: 1.5%;
+        width: 100%;
+        margin-top: 15%;
+    }
+    .Spense{
+        display: none;
+    }
+    .YelpCamp{
+        display: none;
+    }
+    .tabh1,.tabh2
+    {
+        display: none;
+    }
+    .mobh2{
+        margin-top: 4%;
+    }
+    .mobheading, .mobpara1, .mobpara2{
+        display: block;
+    }
+    .mobheading{
+        background-color: rgb(46, 48, 56);
+        color: white;
+        font-family: "Prata", serif;
+        margin-left: 1%;
+        margin-right: 1%;
+        font-size: 31.5px;
+        margin-top: 18%;
+
+    }
+   
+    .mobpara1{
+        margin-top: -17%;
+        margin-left: 1%;
+        margin-right: 1%;
+        font-size: 15px;
+    }
+     .mobpara2{
+       font-size: 15px;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .head{
+        display: none;
+    }
+    .mobhead{
+        display: block;
+        color: white;
+        font-size: 32px;
+        font-family: "Prata", serif;
+        margin-top: 15%;
+    }
+    .p5{
+        display: none;
+    }
+    .mobp5{
+        display: block;
+        color: #8e8e8e;
+        font-size: 15px;
+        font-family: "Inter", serif;
+    }
+ }@media only screen and (max-width: 408px) {
+    *{
+        margin-left: -2%;
+        margin-right: -2%;
+
+    }
+.p1{
+     display: none;
+        
+    }
+    .mob{
+        display: block;
+        color: white;
+        font-family: "Prata", serif;
+        font-size: 34px;
+        margin-top: 17%;
+    }
+    .p2{
+       display: none;
+    }
+    .p3{
+        display: none;
+    }
+    .mobp3{
+        display: block;
+        color: #8e8e8e;
+        font-family: "Inter", serif;
+        font-size: 15px;
+    }
+     .p4{
+        display: none;
+    }
+    .mobp4{
+        display: block;
+        color: #8e8e8e;
+         font-family: "Inter", serif;
+        font-size: 15px;
+    }
+    .tabp4{
+        display: block;
+    }
+    .mobp1{
+        display: block;
+        color: #8e8e8e;
+        font-family: "Inter", serif;
+        font-size: 15px;
+        margin-top: -2%;
+    }
+    #logos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+}
+.i1{
+    margin-left: 4.5rem;
+   }
+   .i2{
+    margin-left: -1.3rem;
+   }
+    .i3{
+        margin-left: 5.5rem;
+    }
+    .i4{
+       margin-left: -1rem;
+    }
+    .i5{
+        margin-left: 2rem;
+    }
+    .i6{
+        margin-left: 1.3rem;
+    }
+    .h1, .h2{
+        font-size: 1.2rem;
+        ma
+    }
+
+    .heading{
+        font-size: 1.2rem;
+    }
+     
+    .head{
+        font-size: 1.2rem;
+    }
+    
+  
+    .tabp3, .tabp4{
+       display: none;
+        
+    }
+    
+    .tabheading{
+        display: none;
+        }
+        .mobheading{
+        display: none;
+        }
+.tabpara1{
+    
+    display: none;
+}
+.tabpara2{
+    
+    display: none;
+}
+.Spense2{
+        display: block;
+        margin-left: -0.8%;
+        margin-right: 1.5%;
+        width: 100%;
+       
+        margin-top: 10%;
+    }
+    .YelpCamp2{
+        display: block;
+        margin-left: -0.8%;
+        margin-right: 1.5%;
+        width: 100%;
+        margin-top: 15%;
+    }
+    .Spense{
+        display: none;
+    }
+    .YelpCamp{
+        display: none;
+    }
+    .tabh1,.tabh2
+    {
+        display: none;
+    }
+    .mobh2{
+        margin-top: 4%;
+    }
+    .mobheading, .mobpara1, .mobpara2{
+        display: block;
+    }
+    .mobheading{
+        background-color: rgb(46, 48, 56);
+        color: white;
+        font-family: "Prata", serif;
+        margin-left: 1%;
+        margin-right: 1%;
+        font-size: 30px;
+        margin-top: 18%;
+
+    }
+   
+    .mobpara1{
+        margin-top: -17%;
+        margin-left: 1%;
+        margin-right: 1%;
+        font-size: 15px;
+    }
+     .mobpara2{
+       font-size: 15px;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .head{
+        display: none;
+    }
+    .mobhead{
+        display: block;
+        color: white;
+        font-size: 32px;
+        font-family: "Prata", serif;
+        margin-top: 15%;
+    }
+    .p5{
+        display: none;
+    }
+    .mobp5{
+        display: block;
+        color: #8e8e8e;
+        font-size: 15px;
+        font-family: "Inter", serif;
+    }
+ }
